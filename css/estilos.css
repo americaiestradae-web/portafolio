@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Climate+Crisis:YEAR@1979&family=Commissioner:wght@100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Isometra&family=Oi&family=Permanent+Marker&family=Zen+Loop:ital@0;1&display=swap');
+@font-face {
+    font-family:CharisSIL ;
+    src: url(../fonts/CharisSIL-Regular.ttf)
+}
+@font-face {
+    font-family:Climate ;
+    src: url(../fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf)
+}
+@font-face {
+    font-family:Commissioner ;
+    src: url(../fonts/Commissioner-VariableFont_FLAR\,VOLM\,slnt\,wght.ttf)
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #e2f5df;
+}
+
+
+#inicio{
+        background-color: #203526;
+}
+
+#inicio h1 {
+    font-family: 'Climate', sans-serif;
+    color:#e2f5df
+
+}
+.saludo {
+    font-family: 'CharisSIL', serif;
+    font-size: 5rem;
+    color: #ffff;
+
+}
+
+.descripcion{
+    font-family: 'CommissionerLocal', sans-serif;
+    font-size: 1rem;
+    color: #ffff;
+
+}
+
+.conoceme{
+    font-family: 'Climate', sans-serif;
+    font-size: 3rem;
+    color: #000000;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.sm{
+    font-family: 'CharisSIL', serif;
+    font-size: 3rem;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.texto {
+    font-family: 'Charis SIL', serif;
+    font-size: 18px;
+    color: #25251D;
+    text-align: center;
+    line-height: 1.8;
+    background-color: #93A651;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.tarjeta-clara {
+    font-family: 'Charis SIL', serif;
+    font-size: 18px;
+    background-color: #F5EDDF;
+    color: #25251D;
+    text-align: center;
+    line-height: 1.8;
+}
+
+
+
+.hero .btn-dorado {
+    font-family: 'CharisSIL', serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #4F732C;
+    }
+
+
+.btn-dorado {
+    font-family: 'CharisSIL', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffff;
+    background-color: #4F732C;
+}
+
+
+.hero .btn-outline-light {
+    font-family: 'CharisSIL', serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #4F732C ;
+}
+
+.tarjeta-proyecto .card-title {
+    font-family: 'CharisSIL', serif;
+    font-size: 28px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center
+}
+
+.tarjeta-proyecto .card-text {
+    font-family: 'CommissionerLocal', sans-serif;
+    font-size: 17px;
+    color: #132612;
+    line-height: 1.8;
+    text-align: left;
+}
+#multimedia .texto-dorado {
+    font-family: 'Charis SIL', serif;
+    font-size: 20px;
+    color: #132612;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.mt-2{
+    font-family: 'Charis SIL', serif;
+    font-size: 20px;
+}
+.mt-3{
+    font-family: 'Charis SIL', serif;
+    font-size: 20px;
+}
+
+
+#proyectos .tarjeta-proyecto {
+    background-color: #D4D9B0;
+    border: 7px solid #304A35;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+#proyectos h2 {
+    background-color: #4F732C;
+    font-family: 'Charis SIL', serif;
+    font-size: 20px;
+}
+#habilidades h2 {
+    font-family: 'Climate', sans-serif;
+    font-size: 3rem;
+    
+}
+.hero {
+    background-color: var(--verde);
+    color: var(--crema);
+    padding: 40px 20px;
+}
+
+.conoceme {
+    color:#304A35;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#hobbies h2 {
+    font-family: 'Charis SIL', serif;
+    color: #132612;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+#hobbies h1 {
+    font-family: 'Charis SIL', serif;
+    color: #132612;
+    font-size: 40px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.hero h1 {
+    color:#D4D9B0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.descripcion{
+     font-family: 'Charis SIL', serif;
+    color: #000000;
+
+    font-size: 28px;
+}
+.navbar-brand {
+    font-family: 'Charis SIL', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
